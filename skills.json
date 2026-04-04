@@ -1,0 +1,89 @@
+{
+  "version": "1.0.0",
+  "skills": {
+    "impeccable": {
+      "repo": "pbakaus/impeccable",
+      "description": "Anti-generic design framework. 20 commands, 7 reference domains.",
+      "tier": "core",
+      "stars": "15.8k"
+    },
+    "ui-ux-pro-max": {
+      "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "description": "84 UI styles, 161 palettes, 57 font pairings. Design system generator.",
+      "tier": "core",
+      "stars": "58k"
+    },
+    "design-for-ai": {
+      "repo": "ryanthedev/design-for-ai",
+      "description": "CHECKER + APPLIER modes. Teaches actual design craft.",
+      "tier": "core"
+    },
+    "interface-design": {
+      "repo": "Dammyjay93/interface-design",
+      "description": "Design tokens, spacing scales, consistency across sessions.",
+      "tier": "core"
+    },
+    "gsap-skills": {
+      "repo": "greensock/gsap-skills",
+      "description": "Official GSAP. ScrollTrigger, SplitText, Flip, Draggable.",
+      "tier": "animation",
+      "stars": "2.1k"
+    },
+    "animate-skill": {
+      "repo": "delphi-ai/animate-skill",
+      "description": "Emil Kowalski-style animations for Next.js/React.",
+      "tier": "animation"
+    },
+    "framer-motion": {
+      "repo": "Schoepplake/framer-motion-skill",
+      "description": "Framer Motion: whileInView, useScroll, useSpring.",
+      "tier": "animation"
+    },
+    "motion-dev": {
+      "repo": "199-biotechnologies/motion-dev-animations-skill",
+      "description": "Motion.dev: scroll effects, gestures, micro-interactions. 60fps.",
+      "tier": "animation"
+    },
+    "claude-design-skills": {
+      "repo": "freshtechbro/claudedesignskills",
+      "description": "22+ skills: Three.js, Lottie, Anime.js, Locomotive, Barba.js, Rive.",
+      "tier": "animation"
+    },
+    "color-expert": {
+      "repo": "meodai/skill.color-expert",
+      "description": "Color science: OKLCH, APCA, palette generation, accessibility.",
+      "tier": "specialist"
+    },
+    "google-fonts": {
+      "repo": "sliday/google-fonts-skill",
+      "description": "100 typography systems. Font pairing generator.",
+      "tier": "specialist"
+    },
+    "stitch-kit": {
+      "repo": "gabelul/stitch-kit",
+      "description": "Trend research, competitor analysis, design direction proposals.",
+      "tier": "specialist"
+    },
+    "design-with-claude": {
+      "repo": "imsaif/design-with-claude",
+      "description": "37 specialist agents: accessibility, dashboards, dark mode, data viz.",
+      "tier": "specialist"
+    },
+    "vercel-agent-skills": {
+      "repo": "vercel-labs/agent-skills",
+      "description": "100+ audit rules: accessibility, performance, UX.",
+      "tier": "qa",
+      "stars": "24.4k"
+    },
+    "a11y-skill": {
+      "repo": "airowe/claude-a11y-skill",
+      "description": "Accessibility audits with axe-core.",
+      "tier": "qa"
+    },
+    "ui-motion-perf": {
+      "repo": "ibelick/ui-skills",
+      "description": "Motion performance: layout thrashing, compositor, scroll-linked.",
+      "tier": "qa"
+    }
+  }
+}
