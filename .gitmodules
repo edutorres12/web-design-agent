@@ -46,3 +46,15 @@
 [submodule "skills/ui-motion-perf"]
 	path = skills/ui-motion-perf
 	url = https://github.com/ibelick/ui-skills
+[submodule "skills/anthropic-skills"]
+	path = skills/anthropic-skills
+	url = https://github.com/anthropics/skills
+[submodule "skills/shadcn-ui"]
+	path = skills/shadcn-ui
+	url = https://github.com/shadcn-ui/ui
+[submodule "skills/wshobson-agents"]
+	path = skills/wshobson-agents
+	url = https://github.com/wshobson/agents
+[submodule "skills/figma-skills"]
+	path = skills/figma-skills
+	url = https://github.com/figma/mcp-server-guide

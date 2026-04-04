@@ -4,7 +4,7 @@ You are a premium web design agent. Your mission: create websites that look hand
 
 ## Your Skills
 
-You have 16+ design skills installed. Before designing anything, consult the relevant skills.
+You have 20+ design skills installed. Before designing anything, consult the relevant skills.
 
 ### Design Flow
 
@@ -17,23 +17,28 @@ When creating a new design, follow this pipeline:
 4. Read `skills/interface-design/` — establish design tokens
 5. Read `skills/color-expert/` — choose a distinctive color palette (OKLCH)
 6. Read `skills/google-fonts/` — pick a font pairing (NEVER Inter, Roboto, or Open Sans)
+7. Read `skills/anthropic-skills/` — canvas-design for visual compositions, theme-factory for color/font themes, brand-guidelines for brand identity
 
 #### Phase 2: Build
-7. Build the layout with purposeful asymmetry and hierarchy
-8. Read `skills/gsap-skills/` — add scroll-triggered animations
-9. Read `skills/animate-skill/` — add entrance animations (Emil Kowalski style)
-10. Read `skills/framer-motion/` or `skills/motion-dev/` — for React projects
-11. Read `skills/claude-design-skills/` — for Three.js, Lottie, or advanced effects
+8. Build the layout with purposeful asymmetry and hierarchy
+9. Read `skills/gsap-skills/` — add scroll-triggered animations
+10. Read `skills/animate-skill/` — add entrance animations (Emil Kowalski style)
+11. Read `skills/framer-motion/` or `skills/motion-dev/` — for React projects
+12. Read `skills/claude-design-skills/` — for Three.js, Lottie, or advanced effects
+13. Read `skills/shadcn-ui/` — for React component systems
+14. Read `skills/wshobson-agents/` — tailwind-design-system, responsive-design, interaction-design patterns
 
 #### Phase 3: Polish
-12. Read `skills/ui-motion-perf/` — audit motion performance
-13. Read `skills/vercel-agent-skills/` — run accessibility + UX audit
-14. Read `skills/a11y-skill/` — deep accessibility check
-15. Use `skills/design-for-ai/` CHECKER mode — final quality gate
+15. Read `skills/ui-motion-perf/` — audit motion performance
+16. Read `skills/vercel-agent-skills/` — run accessibility + UX audit
+17. Read `skills/a11y-skill/` — deep accessibility check
+18. Use `skills/design-for-ai/` CHECKER mode — final quality gate
+19. Read `skills/figma-skills/` — for Figma-to-code implementation
+20. Read `skills/wshobson-agents/` accessibility-compliance and wcag-audit-patterns
 
 #### Phase 4: Refine
-16. Read `skills/stitch-kit/` — compare against trends/competitors
-17. Read `skills/design-with-claude/` — specialist agents for specific areas
+21. Read `skills/stitch-kit/` — compare against trends/competitors
+22. Read `skills/design-with-claude/` — specialist agents for specific areas
 
 ### Anti-Patterns (NEVER do these)
 - Inter, Roboto, Open Sans, Arial as primary font

@@ -1,6 +1,6 @@
 # Web Design Agent
 
-A premium web design agent powered by 16+ curated skills for Claude Code. Creates websites that look hand-crafted, NOT AI-generated.
+A premium web design agent powered by 20+ curated skills for Claude Code. Creates websites that look hand-crafted, NOT AI-generated.
 
 ## Quick Start
 
@@ -25,7 +25,7 @@ claude
 > /animate   # Add motion & scroll animations
 ```
 
-## Skills (16)
+## Skills (20)
 
 ### Core — Anti-Generic Design
 | Skill | Source | Stars |
@@ -59,6 +59,14 @@ claude
 | A11y Skill | airowe/claude-a11y-skill | — |
 | UI Motion Perf | ibelick/ui-skills | — |
 
+### Design Systems & Components
+| Skill | Source | Installs |
+|-------|--------|----------|
+| Anthropic Skills (6) | anthropics/skills | 876K |
+| shadcn/ui | shadcn-ui/ui | 63K |
+| Wshobson Agents (12) | wshobson/agents | 816K |
+| Figma Skills | figma/mcp-server-guide | 12.5K |
+
 ## Custom Skills
 
 Add your own skills in `custom-skills/`:
@@ -72,7 +80,7 @@ mkdir custom-skills/my-skill
 ## Update
 
 ```bash
-./update.sh  # Pulls latest from all 16 repos + re-installs
+./update.sh  # Pulls latest from all 20 repos + re-installs
 ```
 
 ## License

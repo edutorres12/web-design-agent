@@ -84,6 +84,30 @@
       "repo": "ibelick/ui-skills",
       "description": "Motion performance: layout thrashing, compositor, scroll-linked.",
       "tier": "qa"
+    },
+    "anthropic-skills": {
+      "repo": "anthropics/skills",
+      "description": "Official Anthropic skills: canvas-design, theme-factory, brand-guidelines. 876K installs.",
+      "tier": "core",
+      "stars": "official",
+      "individual_skills": ["frontend-design", "canvas-design", "theme-factory", "brand-guidelines", "algorithmic-art", "web-artifacts-builder"]
+    },
+    "shadcn-ui": {
+      "repo": "shadcn-ui/ui",
+      "description": "shadcn/ui component system. 63K installs.",
+      "tier": "specialist",
+      "stars": "63k"
+    },
+    "wshobson-agents": {
+      "repo": "wshobson/agents",
+      "description": "12 design skills: tailwind-design-system, responsive-design, interaction-design, visual-design-foundations, accessibility-compliance. 816K installs.",
+      "tier": "specialist",
+      "individual_skills": ["tailwind-design-system", "responsive-design", "interaction-design", "visual-design-foundations", "design-system-patterns", "web-component-design", "accessibility-compliance", "wcag-audit-patterns"]
+    },
+    "figma-skills": {
+      "repo": "figma/mcp-server-guide",
+      "description": "Figma-to-code workflow: implement-design, create-design-system-rules. 12.5K installs.",
+      "tier": "specialist"
     }
   }
 }
