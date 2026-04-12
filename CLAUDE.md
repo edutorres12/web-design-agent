@@ -88,6 +88,25 @@ Here is the exact path map — READ the relevant ones before designing.
 
 ## Design Pipeline
 
+### Phase 0: Research (MANDATORY — before ANYTHING else)
+
+**Goal: Ground every design in real-world references. NEVER design from imagination alone.**
+
+Read `custom-skills/research-first-workflow.md` for the full process.
+
+**Summary:**
+1. **Web search** — Find 5-10 of the best similar sites (Awwwards, Godly, SiteInspire, Dribbble, Behance, etc.)
+2. **Pinterest search** — Explore mood, aesthetic, and visual tone for the type of site requested
+3. **Fetch & analyze** — Use WebFetch on the top 3-5 sites to extract: colors, fonts, layout, motion, tone
+4. **Reference brief** — Document what you're taking from each site and how you'll adapt it
+5. **Present to user** — Show references + 2-3 design directions before writing any code
+6. **Wait for approval** — Do NOT proceed until the user picks a direction
+
+> **WHY:** Claude's creativity is limited. Professional designers study the best existing work and remix it.
+> Focus creativity on combining and adapting references, not inventing from scratch.
+
+---
+
 ### Phase 1: Direction (BEFORE writing any code)
 
 **Goal: Establish a distinctive visual direction that could never be mistaken for AI-generated.**
