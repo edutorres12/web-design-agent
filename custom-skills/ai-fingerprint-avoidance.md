@@ -44,6 +44,29 @@ all the personality work, the sans is invisible. This is the #1 AI tell.
 - Same rhythm: label → heading → paragraph → CTA, repeat
 - Cards in equal grids (2x2, 3x3)
 
+#### Decorative dividers
+- Thin horizontal lines (1px) between sections or under headings
+- SVG botanical dividers with diamond/dot centers between sections
+- `<hr>` elements styled as accent-colored lines
+- Any decorative separator that exists just to "fill space" between content blocks
+
+**Why it's an AI tell:** Human designers let whitespace do the work. AI adds dividers
+because it learned from templates that use them as section breaks. Premium sites like
+Avelã White use ZERO dividers — sections are separated by spacing and background changes alone.
+
+#### Font sizes (the "modular scale" trap)
+- Major Third (1.25) or Perfect Fourth (1.333) scales with exact mathematical ratios
+- Every AI site has the same sizes: `0.64rem, 0.8rem, 1rem, 1.25rem, 1.563rem, 1.953rem, 2.441rem, 3.052rem`
+- Display headings that are only 2.4-3rem (too small, too safe)
+- Uniform increments between sizes (no dramatic jumps)
+
+**The fix:** Real editorial design uses dramatic size contrast:
+- Body text: 16-17px (normal)
+- Section headings: 3.4-4.2rem (much larger than AI default)
+- Hero text: 5-7rem (dramatically large)
+- The gap between body and display should feel HUGE, not gradual
+- Reference: Avelã White uses weight 200 at massive sizes for editorial impact
+
 #### Naming (CSS variable names)
 - `--cream`, `--ivory`, `--champagne`, `--charcoal`, `--sage`
 - `--font-display`, `--font-body`
@@ -73,17 +96,23 @@ all the personality work, the sans is invisible. This is the #1 AI tell.
 The top 20 Google Fonts by popularity are ALL in AI training data.
 Go to page 2+ of Google Fonts. Pick fonts with <1M weekly downloads.
 
-**Safe choices (distinctive, not AI-default):**
+**Safe choices — sourced from real luxury wedding studios and design references:**
+
+From **Avelã White** (luxury wedding studio) typography guide:
+| Display | Body | Vibe | Source |
+|---------|------|------|--------|
+| Bellefair | Jost | Vintage elegance + clean modern | Avelã White "Timeless & Sophisticated" guide |
+| Marcellus | Crimson Pro | Luxurious, elevated, sophisticated | The Denizen Co font pairings |
+| Cardo | Nunito | Modern, inviting, romantic | The Denizen Co font pairings |
+| Crimson Text | Fanwood Text | Classic, refined, established (serif duo) | The Denizen Co font pairings |
+
+Other distinctive pairings NOT in AI training data:
 | Display | Body | Vibe |
 |---------|------|------|
-| Instrument Serif | Instrument Sans | Editorial, modern |
 | Fraunces | Commissioner | Quirky, distinctive |
 | Newsreader | Outfit | Magazine editorial |
 | Brygada 1918 | Figtree | Classic with character |
-| Bodoni Moda | Hanken Grotesk | High fashion |
-| Literata | Lexend | Bookish, readable |
 | Young Serif | Geist | Contemporary editorial |
-| Baskervville | Onest | Traditional with edge |
 
 **BANNED (too common in AI output):**
 Playfair Display, Cormorant Garamond, Libre Bodoni, Lora, EB Garamond,
