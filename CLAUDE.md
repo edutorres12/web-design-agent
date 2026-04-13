@@ -46,6 +46,7 @@ Here is the exact path map — READ the relevant ones before designing.
 | `skills/google-fonts/` | `references/` | Font reference data |
 | `skills/anthropic-skills/` | `skills/frontend-design/SKILL.md` | Official Anthropic anti-AI-slop skill |
 | `skills/anthropic-skills/` | `skills/brand-guidelines/SKILL.md` | Brand identity & visual language |
+| `custom-skills/` | `ai-fingerprint-avoidance.md` | **GOLDEN RULE. Read BEFORE every project. Banned AI palettes, fonts, layouts.** |
 | `custom-skills/` | `native-scroll-animations.md` | **Apple.com-style native animations. IntersectionObserver, scroll+rAF, CSS transitions. NO libraries.** |
 | `skills/animate-skill/` | `SKILL.md` | Emil Kowalski-style animations (Next.js/React) |
 | `skills/animate-skill/` | `references/` | Animation reference files |
@@ -86,7 +87,8 @@ Here is the exact path map — READ the relevant ones before designing.
 
 **Goal: Ground every design in real-world references. NEVER design from imagination alone.**
 
-Read `custom-skills/research-first-workflow.md` for the full process.
+⚠️ **FIRST:** Read `custom-skills/ai-fingerprint-avoidance.md` — the golden rules to avoid AI-looking output.
+Then read `custom-skills/research-first-workflow.md` for the full process.
 
 **Summary:**
 1. **Web search** — Find 5-10 of the best similar sites (Awwwards, Godly, SiteInspire, Dribbble, Behance, etc.)
@@ -228,6 +230,14 @@ Read `custom-skills/research-first-workflow.md` for the full process.
 ---
 
 ## Anti-Patterns (NEVER do these)
+
+### ⚠️ AI Fingerprint (TOP PRIORITY — see `custom-skills/ai-fingerprint-avoidance.md`)
+- Cream/champagne/charcoal/sage palette (#f7f3ed, #b89b6a, #302b25, #7d9a82)
+- Playfair Display, Cormorant Garamond, Libre Bodoni, Lora, EB Garamond as display font
+- Public Sans, DM Sans, Plus Jakarta Sans as body font
+- Every section centered with identical label→heading→body→CTA rhythm
+- Colors picked from "what feels premium" instead of extracted from client's actual photos/brand
+- CSS variable names like `--cream`, `--champagne`, `--charcoal`, `--sage`
 
 ### Typography
 - Inter, Roboto, Open Sans, Arial, Helvetica as primary font
