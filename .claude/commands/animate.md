@@ -11,10 +11,10 @@ Read the current code and add purposeful motion:
 - Easing: cubic-bezier(0.25, 0.1, 0.25, 1)
 
 ### 2. Scroll Reveals
-- Use GSAP ScrollTrigger (read skills/gsap-skills)
+- Use IntersectionObserver (read custom-skills/native-scroll-animations.md)
 - Elements fade up + slight translate as they enter viewport
-- trigger: "top 85%", once: true
-- Stagger groups of related elements
+- threshold: 0.1, rootMargin: '0px 0px -30px 0px', observe once
+- Stagger groups with setTimeout delays or CSS transition-delay
 
 ### 3. Parallax
 - Subtle parallax on hero images (0.1-0.3 speed ratio)
@@ -31,6 +31,8 @@ Read the current code and add purposeful motion:
 - Optional: progress bar or indicator
 - Background color shifts on scroll
 
-Use skills/gsap-skills for vanilla JS projects.
+Use custom-skills/native-scroll-animations.md for vanilla JS projects (IntersectionObserver + scroll+rAF + CSS transitions — Apple.com style, zero dependencies).
 Use skills/framer-motion or skills/motion-dev for React projects.
 Use skills/animate-skill for Emil Kowalski-style motion.
+
+**IMPORTANT: Never use GSAP or any external animation CDN. All scroll animations must be pure CSS + vanilla JS.**

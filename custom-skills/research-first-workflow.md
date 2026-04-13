@@ -80,7 +80,7 @@ For the **top 5-8 sites found**, use `WebFetch` to actually visit each site and:
 **Code Analysis (when accessible):**
 - Look at their HTML structure for layout patterns
 - Check their CSS for design tokens, custom properties, gradients
-- Note their JS libraries (GSAP, Framer Motion, etc.)
+- Note their animation approach (IntersectionObserver, scroll+rAF, CSS transitions, Framer Motion for React, etc.)
 - Extract reusable patterns
 
 ### Step 4: Analyze Screenshots & Images

@@ -38,7 +38,7 @@ claude
 ### Animation & Motion
 | Skill | Source | Stars |
 |-------|--------|-------|
-| GSAP Skills | greensock/gsap-skills | 2.1k |
+| Native Scroll Animations | custom-skills (Apple.com style) | — |
 | Animate Skill | delphi-ai/animate-skill | — |
 | Framer Motion | Schoepplake/framer-motion-skill | — |
 | Motion.dev | 199-biotechnologies/motion-dev-animations-skill | — |

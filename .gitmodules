@@ -10,9 +10,6 @@
 [submodule "skills/interface-design"]
 	path = skills/interface-design
 	url = https://github.com/Dammyjay93/interface-design
-[submodule "skills/gsap-skills"]
-	path = skills/gsap-skills
-	url = https://github.com/greensock/gsap-skills
 [submodule "skills/animate-skill"]
 	path = skills/animate-skill
 	url = https://github.com/delphi-ai/animate-skill

@@ -16,7 +16,7 @@ Read the current code and apply refinements:
    - Following a consistent scale?
    - Purposeful whitespace?
 
-4. **Motion audit** (skills/ui-motion-perf, skills/gsap-skills)
+4. **Motion audit** (skills/ui-motion-perf, custom-skills/native-scroll-animations.md)
    - Are transitions smooth (60fps)?
    - Custom easing curves?
    - Scroll animations enhance story?

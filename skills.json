@@ -23,11 +23,11 @@
       "description": "Design tokens, spacing scales, consistency across sessions.",
       "tier": "core"
     },
-    "gsap-skills": {
-      "repo": "greensock/gsap-skills",
-      "description": "Official GSAP. ScrollTrigger, SplitText, Flip, Draggable.",
+    "native-scroll-animations": {
+      "repo": "custom-skills/native-scroll-animations.md",
+      "description": "Apple.com-style native animations. IntersectionObserver, scroll+rAF, CSS transitions. Zero dependencies.",
       "tier": "animation",
-      "stars": "2.1k"
+      "custom": true
     },
     "animate-skill": {
       "repo": "delphi-ai/animate-skill",

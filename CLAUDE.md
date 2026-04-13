@@ -46,13 +46,7 @@ Here is the exact path map — READ the relevant ones before designing.
 | `skills/google-fonts/` | `references/` | Font reference data |
 | `skills/anthropic-skills/` | `skills/frontend-design/SKILL.md` | Official Anthropic anti-AI-slop skill |
 | `skills/anthropic-skills/` | `skills/brand-guidelines/SKILL.md` | Brand identity & visual language |
-| `skills/gsap-skills/` | `skills/gsap-core/SKILL.md` | GSAP fundamentals |
-| `skills/gsap-skills/` | `skills/gsap-scrolltrigger/SKILL.md` | Scroll-triggered animations |
-| `skills/gsap-skills/` | `skills/gsap-timeline/SKILL.md` | Animation timelines |
-| `skills/gsap-skills/` | `skills/gsap-plugins/SKILL.md` | SplitText, Flip, Draggable |
-| `skills/gsap-skills/` | `skills/gsap-react/SKILL.md` | GSAP + React integration |
-| `skills/gsap-skills/` | `skills/gsap-performance/SKILL.md` | Animation performance |
-| `skills/gsap-skills/` | `skills/gsap-frameworks/SKILL.md` | Vue, Svelte, vanilla JS |
+| `custom-skills/` | `native-scroll-animations.md` | **Apple.com-style native animations. IntersectionObserver, scroll+rAF, CSS transitions. NO libraries.** |
 | `skills/animate-skill/` | `SKILL.md` | Emil Kowalski-style animations (Next.js/React) |
 | `skills/animate-skill/` | `references/` | Animation reference files |
 | `skills/framer-motion/` | `skills/framer-motion/SKILL.md` | Framer Motion: whileInView, useScroll, useSpring |
@@ -172,9 +166,9 @@ Read `custom-skills/research-first-workflow.md` for the full process.
 **Goal: Add motion that enhances storytelling, not decorates.**
 
 12. **Scroll animations (vanilla JS):**
-    Read `skills/gsap-skills/skills/gsap-scrolltrigger/SKILL.md`
-    Read `skills/gsap-skills/skills/gsap-core/SKILL.md`
-    Read `skills/gsap-skills/skills/gsap-timeline/SKILL.md`
+    Read `custom-skills/native-scroll-animations.md`
+    → IntersectionObserver for reveals, scroll+rAF for parallax/scrub, CSS sticky for pins.
+    → Zero dependencies. Apple.com style.
 
 13. **Scroll animations (React):**
     Read `skills/framer-motion/skills/framer-motion/SKILL.md`
@@ -189,8 +183,8 @@ Read `custom-skills/research-first-workflow.md` for the full process.
 
 16. **Motion performance:**
     Read `skills/ui-motion-perf/skills/fixing-motion-performance/SKILL.md`
-    Read `skills/gsap-skills/skills/gsap-performance/SKILL.md`
-    → Verify 60fps. Use transform/opacity only. No layout thrashing.
+    Read `custom-skills/native-scroll-animations.md` (Performance Rules section)
+    → Verify 60fps. Use transform/opacity only. No layout thrashing. No animation libraries.
 
 ### Phase 4: Polish & Audit
 
@@ -261,6 +255,7 @@ Read `custom-skills/research-first-workflow.md` for the full process.
 - Parallax on text (ruins readability)
 - Motion without purpose (decorative-only)
 - No motion at all (feels static/dead)
+- **GSAP, anime.js, AOS, or any animation CDN/library** (use native CSS + JS only, Apple.com style)
 
 ### Content
 - "Lorem ipsum" placeholder text
